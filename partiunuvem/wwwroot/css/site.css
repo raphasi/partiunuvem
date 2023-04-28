@@ -1,0 +1,75 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body, html {
+    height: 100%;
+    font-family: Roboto,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased
+}
+
+/* ----------------
+  Footer section
+---------------------*/
+
+.footer-section {
+    text-align: center;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#330d38+0,190d36+100 */
+    background: #1D1435;
+    /* Old browsers */
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #1D1435 0%, #7C2AE8 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: -webkit-gradient(linear, left top, right top, from(#330d38), to(#7C2AE8));
+    background: -o-linear-gradient(left, #1D1435 0%, #7C2AE8 100%);
+    background: linear-gradient(to right, #1D1435 0%, #7C2AE8 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1D1435', endColorstr='#7C2AE8', GradientType=1);
+    /* IE6-9 */
+}
+
+    .footer-section .container {
+        position: relative;
+        padding: 60px 15px 25px;
+    }
+
+.footer-left-pic {
+    position: absolute;
+    left: -13px;
+    bottom: 19px;
+}
+
+.footer-right-pic {
+    position: absolute;
+    right: 50px;
+    bottom: 19px;
+}
+
+.footer-menu {
+    padding-top: 62px;
+}
+
+    .footer-menu li:last-child a {
+        margin-right: 0;
+    }
+
+.footer-social {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+    .footer-social a:first-child {
+        margin-left: 0;
+    }
