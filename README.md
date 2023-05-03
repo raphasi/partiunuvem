@@ -20,7 +20,7 @@ https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-
 
    [https://github.com/raphasi/semanapartiunuvem/archive/refs/heads/master.zip](https://github.com/raphasi/partiunuvem/archive/refs/heads/master.zip)
 
-4 - Copie a "partiunuvem" pasta para o dentro do diretório c:\inetpub\wwwroot:
+4 - Copie a pasta "partiunuvem" para dentro do diretório c:\inetpub\wwwroot:
 ```cmd
   C:\inetpub\wwwroot\partiunuvem 
   
