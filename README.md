@@ -3,6 +3,9 @@
 Aplicação utilizada durante a construção do nosso projeto na Semana Partiunuvem.
 Aplicação TFTEC Cloud sendo executada em .Net Core e conectada a um banco SQL Server.
 
+![TFTEC Cloud](https://github.com/raphasi/partiunuvem/blob/master/EstruturaApp_IaaS.png "Semana Partikunuvem")
+
+
 ## Passos para você realizar o deploy da sua aplicação:
 1 - Download ASP.Net Core 7
 
