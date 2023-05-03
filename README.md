@@ -4,23 +4,29 @@ Aplicação utilizada durante a construção do nosso projeto na Semana Partiunu
 Aplicação TFTEC Cloud sendo executada em .Net Core e conectada a um banco SQL Server.
 
 ## Passos para você realizar o deploy da sua aplicação:
-1 - Após instalar seu servidor Windows Server 2022, execute o comando abaixo para realizar a instalação do IIS:
+1 - Download ASP.Net Core 7
+
+https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-7.0.5-windows-hosting-bundle-installer
+
+2 - Após instalar seu servidor Windows Server 2022, execute o comando abaixo para realizar a instalação do IIS:
 
 
 ```cmd
    Install-WindowsFeature -name Web-Server -IncludeManagementTools
 
 ```
-2 - Faça download da pasta do projeto utilizando o seguinte link:
+3 - Faça download da pasta do projeto utilizando o seguinte link:
 
 
    [https://github.com/raphasi/semanapartiunuvem/archive/refs/heads/master.zip](https://github.com/raphasi/partiunuvem/archive/refs/heads/master.zip)
 
-3 - Copie a pasta para o dentro do diretório:
+4 - Copie a "partiunuvem" pasta para o dentro do diretório c:\inetpub\wwwroot:
 ```cmd
-  C:\inetpub\wwwroot 
-  - renomear a pasta para partinuvem
+  C:\inetpub\wwwroot\partiunuvem 
+  
 ```
+5 - Para os demais passos da configuração você deve acompanhar a Aula 02.
+
 
 ## Para todas as instruções referentes a como montar este ambiente, acompanhe as aulas do evento.
 
