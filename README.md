@@ -3,6 +3,8 @@
 Aplicação utilizada durante a construção do nosso projeto na Semana Partiunuvem.
 Aplicação TFTEC Cloud sendo executada em .Net Core e conectada a um banco SQL Server.
 
+# Primeira Aula - Criando seu primeiro projeto em Cloud
+
 ![TFTEC Cloud](https://github.com/raphasi/partiunuvem/blob/master/EstruturaApp_IaaS.png "Semana Partikunuvem")
 
 
@@ -29,6 +31,36 @@ https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-
   
 ```
 5 - Para os demais passos da configuração você deve acompanhar a Aula 02.
+
+
+# Segunda Aula - Modernizando sua aplicação com Cloud
+
+
+## Etapa de Modernização do Banco de dados
+1 - Donwload e instalação do Net .Framework 4.8 na VM-DB:
+
+https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net48-offline-installer
+
+2 - Download e instalaçao do DMA (Data Migration Assistant) na VM-DB:
+
+https://www.microsoft.com/en-us/download/confirmation.aspx?id=53595
+
+3 - Demais etapas detalhadas na Live:
+- Criar um uma instância de Server SQL para hospedar o Azure SQL Database
+- Criar uma instância de Azure SQL Database
+- Utilizar o DMA para rodar um Assessment de compatilbilidade do banco antes da migração
+- Parar a aplicação (iisreset /stop)
+- Utilizar o DMA para rodar a migração do Schema do banco
+- Utilizar o DMA para rodar a migração dos dados para o Azure SQL Database
+- Conferir os dados migrados
+- Desabilitar o serviço do SQL no servidor de oriem (IaaS)
+- Alterar o endereço na string de conexão do servidor de aplicação
+
+## Etapa de Modernização da Aplicação
+1 - Donwload e instalação do App Service migration assistant na VM-APP:
+
+https://azure.microsoft.com/en-au/products/app-service/migration-tools/
+
 
 
 ## Para todas as instruções referentes a como montar este ambiente, acompanhe as aulas do evento.
