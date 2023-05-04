@@ -4,6 +4,7 @@ Aplicação utilizada durante a construção do nosso projeto na Semana Partiunu
 Aplicação TFTEC Cloud sendo executada em .Net Core e conectada a um banco SQL Server.
 
 # Primeira Aula - Criando seu primeiro projeto em Cloud
+Criando uma estrutura de aplicação e banco de dados utilizando serviços Cloud Azure IaaS.
 
 ![TFTEC Cloud](https://github.com/raphasi/partiunuvem/blob/master/EstruturaApp_IaaS.png "Semana Partikunuvem")
 
@@ -35,6 +36,9 @@ https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-
 
 # Segunda Aula - Modernizando sua aplicação com Cloud
 
+Modernizando a estrutura de aplicação e banco de dados utilizando serviços Cloud Azure PaaS.
+
+![TFTEC Cloud](https://github.com/raphasi/partiunuvem/blob/master/EstruturaApp_PaaS.png "Semana Partikunuvem")
 
 ## Etapa de Modernização do Banco de dados
 1 - Donwload e instalação do Net .Framework 4.8 na VM-DB:
