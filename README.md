@@ -55,12 +55,20 @@ https://www.microsoft.com/en-us/download/confirmation.aspx?id=53595
 - Conferir os dados migrados
 - Desabilitar o serviço do SQL no servidor de oriem (IaaS)
 - Alterar o endereço na string de conexão do servidor de aplicação
+- Desligar a VM-DB
 
 ## Etapa de Modernização da Aplicação
 1 - Donwload e instalação do App Service migration assistant na VM-APP:
 
 https://azure.microsoft.com/en-au/products/app-service/migration-tools/
 
+2 - Demais etapas detalhadas na Live:
+- Criar um App Service Plan
+- Fazer Upgrade do App Service Plan para uma instância S2 (Somente quem estiver com conta trial)
+- Criar um Projeto no Azure Migrate
+- Utilizar o App Service migration assistant para migração do site
+- Ajustar a string de conexão no seu Web APP
+- Desligar a VM-APP
 
 
 ## Para todas as instruções referentes a como montar este ambiente, acompanhe as aulas do evento.
